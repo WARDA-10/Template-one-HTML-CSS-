@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Matemasie&family=Moderustic:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  position: fixed;
+  z-index: 9999999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+.logo {
+  text-decoration: none;
+  color: rgb(28, 163, 230);
+  text-transform: uppercase;
+  font-size: 1.8em;
+  font-weight: 700;
+}
+.navigation a {
+  text-decoration: none;
+  color: rgb(28, 163, 230);
+  font-weight: 600;
+  font-size: 1.1em;
+  padding-left: 30px;
+}
+.navigation a:hover {
+  color: white;
+}
+section {
+  padding: 100px 200px;
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(img/4a407db7395d208154ddff793fe51fa4.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.main .overlay-mf {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.main h3 {
+  color: white;
+}
+.main h1 {
+  color: white;
+  font-size: 3em;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.main p {
+  color: white;
+}
+.main-btn {
+  color: aliceblue;
+  background-color: rgb(22, 86, 143);
+  text-decoration: none;
+  font-size: 1.1em;
+  border-radius: 15px;
+
+  display: inline-block;
+  padding: 0.3975em 2.1875em;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  transition: 0.7s ease;
+}
+.main-btn:hover {
+  background-color: rgb(0, 191, 255);
+  transform: scale(1.1);
+}
+.social a {
+  color: aliceblue;
+  font-size: 1.2em;
+  padding-right: 30px;
+}
+
+.serv {
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 157, 255);
+  font-size: 30px;
+  font-weight: 700;
+}
+.item {
+  background-color: silver;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social {
+  margin-top: 15px;
+}
+.services .profile img {
+  width: 200px;
+  height: 200px;
+}
+/* .line{
+    height: 2px;
+    width: 120px;
+
+} */
+.services .about h1::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 120px;
+  background-color: #0078ff;
+  bottom: -10px;
+  left: 0;
+}
+.line {
+  width: 60px;
+  height: 5px;
+  margin: auto;
+  background-color: #0078ff;
+}
+.ico-circle {
+  height: 100px;
+  width: 100px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #0078ff;
+  display: block;
+}
+.services-icon .ico-circle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.box:hover .ico-circle {
+  transition: all 500ms ease;
+  color: #fff;
+  background-color: #0078ff;
+  box-shadow: 0 0 0 15px #cde1f8;
+}
+.Servicess-item {
+  border-radius: 10px;
+}
+/* blog */
+.blog .desc-blog::after {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 4px;
+  background-color: #0078ff;
+  bottom: -20px;
+  left: 48%;
+}
+.imgg img {
+  width: 30px;
+  height: 30px;
+}
+
+.contact .container {
+    position: relative;
+  background-color: #fff;
+  z-index: 999999999;
+}
+.contact .form h5::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 3px;
+  background-color: #0078ff;
+  bottom: 30px;
+  right: 78%;
+}
+.contact button {
+  background-color: #0078ff;
+  color: #fff;
+  padding: 10px 30px;
+  border: 0;
+  margin-left: 35%;
+  transition: 0.5s;
+}
+.contact button:hover {
+  background-color: #388fd6;
+  box-shadow: 0 0 0 4px #cde1f8;
+}
+.contact .infoo h5::after {
+  position: absolute;
+  content: "";
+  background-color: #0078ff;
+  width: 100px;
+  height: 3px;
+  bottom: 30px;
+  right: 78%;
+}
+.contact .socials a {
+  font-size: 1.2em;
+  margin-right: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.contact .socials a:hover {
+  background-color: #388fd6;
+  color: #fff;
+  box-shadow: 0 0 0 5px #cde1f8;
+  border: none;
+}
+
+.contact .icon-circlee {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #388fd6;
+  border-radius: 50%;
+  line-height: 1.55;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact{
+    background-image: url(img/overlay-bg.jpg);
+}
+.contact .overlay-mf {
+    position: absolute;
+    background-color: #0078ff;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+  }
+
+  .contact .fa-location-dot,  .contact  .fa-mobile-screen-button,  .contact .fa-briefcase{
+    color:#0078ff;
+    margin-right: 5px;
+  }
+  .w-iconn{
+    background-image:url(img/post-3.jpg) ;
+    background-attachment: fixed;
+    background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+  }
+  .w-iconn .overlay-mf{
+    position: absolute;
+    background-color: #0078ff;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+   
+
+  }
+  .w-iconn .state-icone{
+    width: 80px;
+    height: 80px;
+    border: 10px solid #fbfbfb;
+    border-radius: 50%;
+  
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+  }
